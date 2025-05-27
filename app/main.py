@@ -75,3 +75,5 @@ def predict(cliente: Cliente):
 
     return {"resultado": "Aprobado" if pred == 1 else "No aprobado"}
 
+
+# uvicorn app.main:app --reload
